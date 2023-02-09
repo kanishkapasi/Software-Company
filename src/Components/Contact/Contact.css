@@ -1,0 +1,230 @@
+
+.contactContainer{
+    width: 85%;
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    z-index: -1;
+}
+
+.contactContainer h1{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.contactContainer .form{
+    width: 80%;
+    margin: auto;
+}
+
+.contactContainer .form .firstRow{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.contactContainer .form .firstRow #one{
+    width: 50%;
+    height: 30px;
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid red;
+    outline: none;
+    font-size: 16px;
+    font-family: poppins;
+}
+
+.contactContainer .form .secondRow {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    margin-top: 20px;
+}
+
+.contactContainer .form .secondRow #two{
+    width: 50%;
+    height: 30px;
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid red;
+    outline: none;
+    font-size: 16px;
+    font-family: poppins;
+}
+
+.contactContainer .form .thirdRow{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.contactContainer .form .thirdRow #three{
+    width: 100%;
+    height: 230px;
+    padding: 20px;
+    border: none;
+    border: none;
+    border-bottom: 2px solid red;
+    outline: none;
+    font-size: 16px;
+    font-family: poppins;
+}
+
+.contactContainer .form button{
+    width: 120px;
+    height: 50px;
+    background-color: orange;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: bolder;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.detailsSection{
+    width: 100%;
+    background-color: rgb(9, 9, 61);
+    color: white;
+}
+
+.detailsSection .details{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    /* padding-left: 20px; */
+    padding-right: 20px;
+}
+
+.detailsSection .details .mainDetail h2{
+    font-size: 20px;
+}
+
+.detailsSection .details .mainDetail span{
+    color: rgb(228, 105, 130);
+}
+
+.detailsSection .details .mainDetail p{
+    font-size: 12px;
+}
+
+.detailsSection .details .mainDetail .addressPanel .address{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+.detailsSection .details .mainDetail .addressPanel .address .homeIcons{
+   size: 50px;
+}
+.detailsSection .details .mainDetail .addressPanel .reach{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+.detailsSection .details .visaTypes{
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.detailsSection .details .visaTypes h2{
+    font-size: 17px;
+}
+
+.detailsSection .details .visaTypes p{
+    font-size: 12px;
+}
+
+.detailsSection .sign{
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.detailsSection .sign p{
+    font-size: 15px;
+}
+
+.detailsSection .sign .search input{
+    outline: none;
+    border-bottom: 1px solid white;
+    font-family: poppins;
+    height: 27px;
+} 
+.detailsSection .sign button{
+    width:100px;
+    height: 35px;
+    margin-left: 5px;
+    background-color: rgb(246, 193, 94);
+    color: rgb(16, 17, 16);
+    font-family: poppins;
+    font-weight: bolder;
+    border: none;
+}
+
+.detailsSection .social{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.detailsSection .social  .iconsS{
+    width: 100px;
+}
+
+@media screen and (max-width:980px) {
+    .detailsSection{
+        width: 100%;
+    }
+    .detailsSection .details{
+        width: 100%;
+    }
+}
+@media screen and (max-width:975px) {
+    .detailsSection{
+        width: 100%;
+    }
+    .detailsSection .details{
+        width: 100%;
+        flex-direction: column;
+    }
+    .detailsSection .details .mainDetail{
+        margin: auto;
+    }
+    .detailsSection .details .visaTypes{
+        display: none;
+    }
+    .detailsSection .details .sign{
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .contactContainer .form{
+        width: 100%;
+    }
+    .contactContainer .form .firstRow{
+        flex-direction: column;
+    }
+    .contactContainer .form .firstRow #one{
+        width: 100%;
+    }
+    .contactContainer .form .secondRow{
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    .contactContainer .form .secondRow #two{
+        width: 100%;
+    }
+    
+}

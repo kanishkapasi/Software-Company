@@ -1,0 +1,136 @@
+.aboutContainer{
+    width: 85%;
+    padding-top: 80px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin: auto;
+}
+
+.aboutContainer .image{
+    justify-content: center;
+}
+
+.aboutContainer .image h1{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.aboutContainer .aboutContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutContainer .aboutContent .aboutRight{
+    padding: 20px;
+    width: 600px;
+}
+
+.aboutContainer .aboutContent .aboutRight h1{
+    color: rgb(13, 77, 151);
+}
+
+.aboutContainer .aboutContent .aboutRight button{
+    width: 120px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    transition: all 0.4s;
+}
+
+.aboutContainer .aboutContent .aboutRight button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.aboutContainer .aboutSecondContent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aboutContainer .aboutSecondContent .secondLeft{
+    width: 600px;
+}
+
+
+.aboutContainer .aboutSecondContent .secondLeft h1{
+    color: rgb(13, 77, 151);
+}
+
+.aboutContainer .aboutSecondContent .secondLeft button{
+    width: 120px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    transition: all 0.4s;
+}
+
+.aboutContainer .aboutSecondContent .secondLeft button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1100px){
+    .aboutContainer .aboutContent{
+        flex-direction: column-reverse;
+    }
+    .aboutContainer .aboutContent .aboutRight h1{
+        text-align: center;
+    }
+    .aboutContainer .aboutSecondContent{
+        flex-direction: column;
+    }
+    .aboutContainer .aboutSecondContent .secondLeft h1{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:730px){
+    .aboutContainer{
+        width: 90%;
+        text-align: center;
+    }
+    .aboutContainer .aboutContent {
+        width: 100%;
+    }
+    .aboutContainer .aboutSecondContent{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:670px){
+    .aboutContainer{
+        width: 90%;
+        text-align: center;
+    }
+    .aboutContainer .aboutContent {
+        width: 100%;
+    }
+    .aboutContainer .aboutContent .aboutRight {
+        width: 100%;
+    }
+    .aboutContainer .aboutSecondContent .secondLeft{
+        width: 100%;
+    }
+    .aboutContainer .aboutSecondContent{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:402px){
+    .aboutContainer .aboutContent .aboutLeft img{
+        width: 100px;
+    }
+}

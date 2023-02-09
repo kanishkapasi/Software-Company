@@ -1,0 +1,123 @@
+*{
+    text-decoration: none;
+}
+
+.container{
+    padding-top: 90px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    width: 85%;
+    margin: auto;
+    z-index: -5;
+    height: 120vh;
+}
+
+.container .upperBody{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .upperBody .homeLeft span{
+    color: rgb(38, 38, 183);
+}
+
+.container .upperBody button{
+    gap: 4rem;
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+background-color: white;
+color: black;
+border: 1px solid black;
+    transition: all 0.4s;
+}
+
+/* .container .upperBody button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+    font-weight: bolder;
+} */
+
+.container .upperBody button .a{
+    color: black;
+}
+
+/* .container .upperBody button .a:hover{
+    color: black;
+    cursor: pointer;
+    font-weight: bolder;
+} */
+
+.container .upperBody .btnOne{
+    width: 130px;
+    height: 30px;
+    margin-left: 30px;
+}
+
+.container .upperBody .homeRight img{
+    width: 500px;
+}
+
+.lowerBody{
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.lowerBody .items{
+    width: 360px;
+    height: 350px;
+    border: 1px solid rgba(0, 0, 0, 0.35);
+}
+
+.lowerBody .items:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.lowerBody .items .image{
+    width: 150px;
+}
+.lowerBody .items p{
+    font-size: 13px;
+}
+
+.lowerBody .items h3{
+    color: #F94A29;
+}
+
+@media screen and (max-width:1250px) {
+    .container{
+        width: 90%;
+    }
+}
+@media screen and (max-width:1209px) {
+    .lowerBody .items{
+        width: 100%;
+    }
+}
+@media screen and (max-width:1060px) {
+    .container{
+        width: 90%;
+
+    }
+    .container .upperBody{
+        flex-direction: column;
+    }
+    .container .lowerBody{
+        justify-content: space-between;
+    }
+    .lowerBody .items{
+        width: 100%;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .container .lowerBody .items{
+        margin: auto;
+    }
+}
