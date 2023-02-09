@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Software-Company/static/css/main.25481e33.css",
+    "main.js": "/Software-Company/static/js/main.d8a8b12e.js",
+    "static/js/787.028b8f68.chunk.js": "/Software-Company/static/js/787.028b8f68.chunk.js",
+    "static/media/About.png": "/Software-Company/static/media/About.9d244f10aa308da9863f.png",
+    "static/media/creative.png": "/Software-Company/static/media/creative.363edc5460de29bbfacb.png",
+    "static/media/innovation.png": "/Software-Company/static/media/innovation.38ae23f9576908ef2d77.png",
+    "static/media/optimized.png": "/Software-Company/static/media/optimized.e40bcb8faeccfed3c596.png",
+    "static/media/login.png": "/Software-Company/static/media/login.a00dd82469c994fc96fc.png",
+    "static/media/developing.png": "/Software-Company/static/media/developing.fcce9394521d49c45f13.png",
+    "static/media/Home.png": "/Software-Company/static/media/Home.cb4bec397779b9c290ef.png",
+    "index.html": "/Software-Company/index.html",
+    "main.25481e33.css.map": "/Software-Company/static/css/main.25481e33.css.map",
+    "main.d8a8b12e.js.map": "/Software-Company/static/js/main.d8a8b12e.js.map",
+    "787.028b8f68.chunk.js.map": "/Software-Company/static/js/787.028b8f68.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25481e33.css",
+    "static/js/main.d8a8b12e.js"
+  ]
+}
